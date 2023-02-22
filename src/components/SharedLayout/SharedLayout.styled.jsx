@@ -14,7 +14,7 @@ export const Header = styled.header`
   gap: 12px;
   padding: 8px 0;
   margin-bottom: 16px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #272727;
   > nav {
     display: flex;
     gap: 12px;
@@ -28,12 +28,12 @@ export const Link = styled(NavLink)`
   color: black;
   font-weight: 500;
   &.active {
-    color: white;
-    background-color: #058bf8;
+    color: #d33121;
+    background-color: #272727;
   }
   &:hover:not(.active),
   &:focus:not(.active) {
-    color: #fff;
-    background-color: #058bf8;
+    color: #d33121;
+    background-color: #272727;
   }
 `;

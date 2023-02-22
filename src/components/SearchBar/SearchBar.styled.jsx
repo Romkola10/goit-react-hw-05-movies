@@ -4,28 +4,32 @@ export const StyledButton = styled.button`
   display: inline-flex;
   align-items: center;
   justify-content: space-around;
-  border: 1px solid blue;
-  border-color: #1a7ac8;
-  border-radius: 5px;
+  border: 1px solid #d33121;
+  border-color: #272727;
+  border-radius: 10px;
   width: 100px;
   height: 40px;
-  color: #1a7ac8;
+  color: #d33121;
+  background-color: #272727;
   &:hover {
-    color: #fff;
-    background-color: #058bf8;
+    color: #272727;
+    background-color: #d33121 ;
     cursor: pointer;
   }
 `;
 
 export const StyledInput = styled.input`
-  border: 1px solid #1a7ac8;
-  border-color: #1a7ac8;
-  border-radius: 5px;
+  border: 1px solid d33121;
+  border-color: #272727;
+  border-radius: 10px;
   width: 200px;
   height: 36px;
-  color: #1a7ac8;
-  &:hover {
-    background-color: #f1f4f7;
+  color: #272727;
+  background-color: #d33121;
+  &:hover,
+  &:focus {
+    color: #d33121;
+    background-color: #272727;
   }
 `;
 

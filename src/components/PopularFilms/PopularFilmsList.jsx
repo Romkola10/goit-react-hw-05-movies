@@ -9,7 +9,7 @@ const PopularMoviesList = ({ popFilms, state }) => {
             to={`movies/${id}`}
             state={state}
             style={{
-              color: '#058bf8',
+              color: '#272727',
             }}
           >
             {title || name}
